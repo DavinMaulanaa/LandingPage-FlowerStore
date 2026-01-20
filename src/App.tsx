@@ -102,15 +102,8 @@ const FlowerShopLanding = () => {
     <div className="min-h-screen bg-white">
       {/* Navigation */}
       <nav className="flex items-center justify-between px-8 py-4 bg-white border-b border-gray-200 h-24" >
-        <div className="text-xl font-light">logo</div>
-        <div className="hidden md:flex space-x-8 text-sm">
-          <a href="#" className="text-gray-700 hover:text-gray-900">HOME</a>
-          <a href="#" className="text-gray-700 hover:text-gray-900">ABOUT US</a>
-          <a href="#" className="text-gray-700 hover:text-gray-900">PORTFOLIO</a>
-          <a href="#" className="text-gray-700 hover:text-gray-900">SERVICES</a>
-          <a href="#" className="text-gray-700 hover:text-gray-900">CONTACT</a>
-          <a href="#" className="text-gray-700 hover:text-gray-900">BLOG</a>
-        </div>
+        <img src="Logo.png" alt="Logo" className="h-32" />
+      
        
       </nav>
 
@@ -147,21 +140,21 @@ const FlowerShopLanding = () => {
             <img src ="FlowerV.png" alt="Fast Delivery Icon" className="w-20 h-20 mx-auto mb-6" />
             <h3 className="text-xl font-light mb-3">Fast Delivery</h3>
             <p className="text-sm text-gray-600 leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar elementum tempus hac.
+              Fresh flowers delivered quickly and safely — perfect for last-minute gifts and special moments that can’t wait.
             </p>
           </div>
           <div className="text-center">
              <img src ="FlowerV2.png" alt="Fast Delivery Icon" className="w-20 h-20 mx-auto mb-6" />
             <h3 className="text-xl font-light mb-3">Great Selection</h3>
             <p className="text-sm text-gray-600 leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar elementum tempus hac.
+              A wide variety of bouquets, colors, and arrangements designed for every occasion — from simple gestures to grand celebrations.
             </p>
           </div>
           <div className="text-center">
             <img src ="FlowerV3.png" alt="Fast Delivery Icon" className="w-20 h-20 mx-auto mb-6" />
             <h3 className="text-xl font-light mb-3">Positive Impact</h3>
             <p className="text-sm text-gray-600 leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar elementum tempus hac.
+             Thoughtfully arranged flowers that bring joy, express emotions, and create meaningful connections between people.
             </p>
           </div>
         </div>
@@ -405,33 +398,9 @@ We help you choose beautiful, fresh bouquets for every moment — thoughtfully a
       <footer className="bg-gray-900 text-white py-16 px-8 ">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <div className="text-3xl font-light mb-8">logo</div>
+            <img src="Logo.png" alt="Logo" className="h-32 mx-auto block" />
           </div>
-          <div className="grid md:grid-cols-3 gap-8 text-sm">
-            <div>
-              <h3 className="font-medium mb-4">Contact</h3>
-              <p className="text-gray-400">123 Flower Street</p>
-              <p className="text-gray-400">City, State 12345</p>
-              <p className="text-gray-400 mt-2">contact@flowers.com</p>
-            </div>
-            <div>
-              <h3 className="font-medium mb-4">Quick Links</h3>
-              <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-white">About Us</a></li>
-                <li><a href="#" className="hover:text-white">Services</a></li>
-                <li><a href="#" className="hover:text-white">Portfolio</a></li>
-                <li><a href="#" className="hover:text-white">Contact</a></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-medium mb-4">Follow Us</h3>
-              <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-white">Instagram</a></li>
-                <li><a href="#" className="hover:text-white">Facebook</a></li>
-                <li><a href="#" className="hover:text-white">Pinterest</a></li>
-              </ul>
-            </div>
-          </div>
+         
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-sm text-gray-400">
             <p>&copy; 2024 Flower Shop. All rights reserved.</p>
           </div>
