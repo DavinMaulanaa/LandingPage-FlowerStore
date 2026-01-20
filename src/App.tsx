@@ -101,7 +101,7 @@ const FlowerShopLanding = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <nav className="flex items-center justify-between px-8 py-4 bg-white border-b border-gray-200">
+      <nav className="flex items-center justify-between px-8 py-4 bg-white border-b border-gray-200 h-20" >
         <div className="text-xl font-light">logo</div>
         <div className="hidden md:flex space-x-8 text-sm">
           <a href="#" className="text-gray-700 hover:text-gray-900">HOME</a>
@@ -116,7 +116,7 @@ const FlowerShopLanding = () => {
 
       {/* Hero Section */}
       <section 
-        className="relative py-24 px-8 min-h-screen bg-cover bg-center bg-no-repeat justify-center flex items-center"
+        className="relative py-24 px-8 min-h-screen bg-cover bg-center bg-no-repeat justify-center flex items-center "
         style={{ backgroundImage: 'url(/Header.png)' }}
       >
         <div className="max-w-6xl mx-auto text-center relative z-10">
@@ -319,8 +319,8 @@ We help you choose beautiful, fresh bouquets for every moment — thoughtfully a
       </section>
 
       {/* What We Do Section */}
-      <section className="py-20 px-8">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+      <section className="py-20 px-8 bg-purple-100">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center ">
           <div>
             <h2 className="text-4xl font-light mb-6">What we do</h2>
             <p className="text-gray-600 mb-4 leading-relaxed">
@@ -348,7 +348,7 @@ We help you choose beautiful, fresh bouquets for every moment — thoughtfully a
       </section>
 
       {/* Our Gallery */}
-<section className="py-20 px-8 bg-pink-200">
+<section className="py-20 px-8 mb-32">
   <div className="max-w-6xl mx-auto">
     <h2 className="text-4xl font-light text-center mb-16">Our Gallery</h2>
     
@@ -402,7 +402,7 @@ We help you choose beautiful, fresh bouquets for every moment — thoughtfully a
   </div>
 </section>
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-16 px-8 mt-32">
+      <footer className="bg-gray-900 text-white py-16 px-8 ">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <div className="text-3xl font-light mb-8">logo</div>
