@@ -101,7 +101,7 @@ const FlowerShopLanding = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <nav className="flex items-center justify-between px-8 py-4 bg-white border-b border-gray-200 h-20" >
+      <nav className="flex items-center justify-between px-8 py-4 bg-white border-b border-gray-200 h-24" >
         <div className="text-xl font-light">logo</div>
         <div className="hidden md:flex space-x-8 text-sm">
           <a href="#" className="text-gray-700 hover:text-gray-900">HOME</a>
